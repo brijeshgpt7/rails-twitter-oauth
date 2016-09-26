@@ -30,3 +30,5 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
 end
+gem 'puma'
+gem 'rails_12factor'
