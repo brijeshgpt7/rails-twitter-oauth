@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
     user.save!
     reset_session
     session[:user_id] = user.id
-    session[:access_token_key] = user.access_token_key
+    session[:access_token] = user.access_token
     session[:access_token_secret] = user.access_token_secret
     redirect_to root_url, :notice => 'Signed in!'
   end
