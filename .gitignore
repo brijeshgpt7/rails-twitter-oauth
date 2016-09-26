@@ -71,3 +71,6 @@ pickle-email-*.html
 # tilde files are usually backup files from a text editor
 *~
 .byebug_history
+
+# Ignore application configuration
+/config/application.yml
